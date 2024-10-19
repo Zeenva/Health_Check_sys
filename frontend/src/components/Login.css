@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  width: 100%;
+}
+
+.form-group label {
+  margin-right: 10px;
+  width: 70px;
+  text-align: right;
+  font-weight: 600;
+}
+
+.form-group input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  flex: 1;
+  font-size: 16px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.button-group button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  flex: 1;
+  margin: 0 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.login-button {
+  background-color: #2575fc;
+  color: white;
+}
+
+.login-button:hover {
+  background-color: #1a5bb8;
+}
+
+.register-button {
+  background-color: transparent;
+  color: #2575fc;
+  font-weight: bold;
+  font-size: 14px;
+  border: 2px solid #2575fc;
+}
+
+.register-button:hover {
+  background-color: #f0f0f0;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
